@@ -22,4 +22,4 @@ jobs:
       - name: Run a multi-line script
         env:
           JOB_CONTEXT: ${{ toJson(job) }}
-        run: echo "The job context: ${JOB_CONTEXT}"
+        run: echo "The job context ${JOB_CONTEXT}"
